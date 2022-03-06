@@ -14,12 +14,15 @@ the project was made for a new hire application which hade some key factors that
 - [Credits](#credits)
 - [License](#license)
 - [Download Link](#download)
+- [learned](#things I lerned)
 
 ## installation
 
 to install this app the user needs to down the app and in the command line add
 
 `npm i && npm install axios expo-location expo-permissions html-entities @react-navigation/bottom-tabs @react-navigation/native @react-navigation/native-stack expo-splash-screen expo-status-bar expo-updates react-native-webview react-native-web react-native-screens react-native-safe-area-context react-native-render-html react-native-paper react-native-dotenv`
+
+you will need to make a .env and add a apiKey
 
 ## usage
 
@@ -28,6 +31,10 @@ my app was made with these things in mind it need to look neat for the user simp
 ## challanges
 
 some of the limitations used when making this app where time i work a full time job and at the time of making am enrolled in the full stack developer progrom provided by Uncc. this will be the second time using react native so learning all the new types of things i can do with this language is amazing and felt great. the last limitation was not haveing a mac at the time and only being able to use one for aout 7 hours from a friend so having one day to learn and build was stressfull but also fulfilling.
+
+## things i learned
+
+while building this i was able to learn alot of the language for React such as how nice it is to keep the styles at the top to be reused throught the screen wich is really cool. the nicest thing was lerning hooks and how they function and allow the need to not have a class and how its a function that lets you hook into the state and allow the whole file to load. over all this was a fun project!
 
 ## download
 
