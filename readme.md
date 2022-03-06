@@ -8,37 +8,66 @@ the project was made for a new hire application which hade some key factors that
 
 ## table of Contents
 
-- [Installation](#installation)
+- [Installation](#installation/dependencies)
 - [Usage](#usage)
 - [Challanges](#challanges)
 - [Credits](#credits)
 - [License](#license)
 - [Download Link](#download)
-- [learned](#things I lerned)
 
-## installation
+## installation/dependencies
 
 to install this app the user needs to down the app and in the command line add
 
-`npm i && npm install axios expo-location expo-permissions html-entities @react-navigation/bottom-tabs @react-navigation/native @react-navigation/native-stack expo-splash-screen expo-status-bar expo-updates react-native-webview react-native-web react-native-screens react-native-safe-area-context react-native-render-html react-native-paper react-native-dotenv`
+`npm i`
+
+- axios
+- expo
+- expo-location
+- expo-permissions
+- expo-splash-screen
+- expo-status-bar
+- expo-updates
+- html-entities
+- @react-navigation/bottom-tabs
+- @react-navigation/native
+- @react-navigation/native-stack
+- react
+- react-dom
+- react-native
+- react-native-webview
+- react-native-web
+- react-native-screens
+- react-native-safe-area-context
+- react-native-render-html
+- react-native-paper
+- react-native-dotenv
 
 you will need to make a .env and add a apiKey
 
 ## usage
 
-my app was made with these things in mind it need to look neat for the user simple and easy to understand. i made this with 3 screens one for a homepage one to search for a item and bring up the item with a small picture a description and price then i used the product id to bring up a screen with a more indepth look and the item use a small amount of styling to make the items look pleasing to the eye. finally add the screen to take advange of the user devices location and bring up near by deals.
+my app was made with these things in mind it need to look neat for the user simple and easy to understand.
+I made this with 3 screens one for a homepage one to search for a item and bring up the item with a small picture a description and price.
+I used the product id to bring up a screen with a more indepth look and the item use a small amount of styling to make the items look pleasing to the eye.
+finally add the screen to take advange of the user devices location and bring up near by deals.
+
+navbar which takes you to one of these 3 options:
+
+- homepage which shows the shop.com home page
+
+- search which brings up products in a stack
+
+- locals which allows the use of the devices location to be used
 
 ## challanges
 
-some of the limitations used when making this app where time i work a full time job and at the time of making am enrolled in the full stack developer progrom provided by Uncc. this will be the second time using react native so learning all the new types of things i can do with this language is amazing and felt great. the last limitation was not haveing a mac at the time and only being able to use one for aout 7 hours from a friend so having one day to learn and build was stressfull but also fulfilling.
-
-## things i learned
-
-while building this i was able to learn alot of the language for React such as how nice it is to keep the styles at the top to be reused throught the screen wich is really cool. the nicest thing was lerning hooks and how they function and allow the need to not have a class and how its a function that lets you hook into the state and allow the whole file to load. over all this was a fun project!
+getting html elements to not show (<p>,<br>) and others what i found was using html-entities i was able to achive what i was looking for.
 
 ## download
 
-<a herf ="https://drive.google.com/file/d/1V_IWwhI8JBG8ckjqeHOdTQRhWkTK5UTG/view?usp=sharing">Andriod.apk</a>
+iOS will work on a test device
+[Andriod.apk](https://drive.google.com/file/d/1V_IWwhI8JBG8ckjqeHOdTQRhWkTK5UTG/view?usp=sharing)
 
 ## license
 
