@@ -52,13 +52,13 @@ I made this with 3 screens one for a homepage one to search for a item and bring
 I used the product id to bring up a screen with a more indepth look and the item use a small amount of styling to make the items look pleasing to the eye.
 finally add the screen to take advange of the user devices location and bring up near by deals.
 
-navbar which takes you to one of these 3 options:
+navbar which takes you to one of these 3 tab options:
 
-- homepage which shows the shop.com home page
+- homepage (tab) which shows the shop.com home page
 
-- search which brings up products in a stack
+- search (tab) which allows the user to search for a product. then allows for the use to click on the item and bring up a stack of the item with product details
 
-- locals which allows the use of the devices location to be used
+- locals (tab) which allows the use of the devices location to be used
 
 ## challanges
 
