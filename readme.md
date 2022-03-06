@@ -17,9 +17,7 @@ the project was made for a new hire application which hade some key factors that
 
 ## installation
 
-````
-to install this app the user needs to down the app and in the command line add ``` npm i && npm install axios expo-location expo-permissions html-entities @react-navigation/bottom-tabs @react-navigation/native @react-navigation/native-stack expo-splash-screen expo-status-bar expo-updates react-native-webview react-native-web react-native-screens react-native-safe-area-context react-native-render-html react-native-paper react-native-dotenv ```
-````
+to install this app the user needs to down the app and in the command line add `npm i && npm install axios expo-location expo-permissions html-entities @react-navigation/bottom-tabs @react-navigation/native @react-navigation/native-stack expo-splash-screen expo-status-bar expo-updates react-native-webview react-native-web react-native-screens react-native-safe-area-context react-native-render-html react-native-paper react-native-dotenv`
 
 ## usage
 
