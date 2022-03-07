@@ -47,23 +47,21 @@ You will need to make a .env and add a apiKey.
 
 ## usage
 
-My app was made with these things in mind. It needs to look neat, simple and easy to understand.
-I made this with 3 screens, one for a homepage, one to search for an item and bring up the item with a small picture, a description and price.
-I used the product id to bring up a screen with a more indepth look and the item uses a small amount of styling to make the items look pleasing to the eye.
-finally add the screen to take advantage of the user devices location and bring up nearby deals.
+The project was made for a new hire application which has some key factors that needed to be met. An app that was either made for android or iOS needs to be installed on a phone or run on a phone. Use a shop API key and use at least 2 Apis from shop.com and the app needs to use either JS or React Native. Needs at least one native feature of a phone/tablet.
 
 
 navbar which takes you to one of these 3 tab options:
 
 - Homepage (tab) which shows the shop.com home page
 
-- Search (tab) which allows the user to search for a product. then allows for the use to click on the item and bring up a (stack) of the item with product details
+- Search (tab) which allows the user to search for a product. then allows for the user to click on the item and bring up a (stack) of the item with product details
 
-- Locals (tab) which allows the use of the devices location to be used
+- Locals (tab) which allows the use of the location of the device to be used
+
 
 ## challanges
 
-Getting html elements to not show (p,br) and others what i found was using html-entities i was able to achieve what i was looking for.
+Getting HTML elements to not show (p,br) and others what I found was using HTML-entities I was able to achieve what I was looking for.
 
 ## download
 
