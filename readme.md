@@ -62,7 +62,7 @@ navbar which takes you to one of these 3 tab options:
 
 ## challanges
 
-Getting html elements to not show (<p>,<br>) and others what i found was using html-entities i was able to achive what i was looking for.
+Getting html elements to not show (p,br) and others what i found was using html-entities i was able to achive what i was looking for.
 
 ## download
 
