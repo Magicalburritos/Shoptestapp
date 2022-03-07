@@ -1,4 +1,4 @@
-# shopTest
+# ShopTest
 
 ![GitHub](https://img.shields.io/github/license/magicalburritos/Shoptestapp)
 
@@ -6,16 +6,16 @@
 
 The project was made for a new hire application which has some key factors that needed to be met. An app that was either made for android or iOS which needs to be installed on a phone or run on a phone. Use a shop api key and use at least 2 Apis from shop.com and the app needs to use either JS or React Native. Needs at least one native feature of a phone/tablet.
 
-## table of Contents
+## Table of Contents
 
-- [Installation](#installation/dependencies)
+- [Installation](#Installation/Dependencies)
 - [Usage](#usage)
 - [Challanges](#challanges)
 - [Credits](#credits)
 - [License](#license)
 - [Download Link](#download)
 
-## installation/dependencies
+## Installation/Dependencies
 
 to install this app the user needs to down the app and in the command line add
 
