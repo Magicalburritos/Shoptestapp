@@ -1,13 +1,12 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
-import WebView from "react-native-webview";
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import WebView from 'react-native-webview';
 
-import Button from "../../components/Button";
-import useLocation from "./hooks";
+import useLocation from './hooks';
 const styles = StyleSheet.create({
   butts: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: '#fff',
   },
 });
 

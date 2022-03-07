@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from 'react';
 import {
   View,
   ScrollView,
@@ -7,26 +7,26 @@ import {
   ActivityIndicator,
   Image,
   useWindowDimensions,
-} from "react-native";
+} from 'react-native';
 
-import useProducts from "./hooks";
-import { decode } from "html-entities";
-import RenderHTML from "react-native-render-html";
+import useProducts from './hooks';
+import { decode } from 'html-entities';
+import RenderHTML from 'react-native-render-html';
 
 const styles = StyleSheet.create({
   productContainer: {
     flex: 1,
-    backgroundColor: "#FFF",
+    backgroundColor: '#FFF',
     padding: 20,
   },
   titleText: {
     fontSize: 20,
-    fontWeight: "bold",
-    alignSelf: "center",
+    fontWeight: 'bold',
+    alignSelf: 'center',
   },
   priceText: {
     fontSize: 18,
-    color: "green",
+    color: 'green',
   },
 });
 
@@ -60,10 +60,10 @@ export default function Products({ route }) {
         <View style={{ padding: 20 }}>
           <Image
             source={{ uri: sizes[2].url }}
-            style={{ height: 300, width: 300, alignSelf: "center" }}
+            style={{ height: 300, width: 300, alignSelf: 'center' }}
           />
           <Text style={styles.titleText}>
-            {decode(name, { level: "html5" })}
+            {decode(name, { level: 'html5' })}
           </Text>
           <Text style={styles.priceText}>{priceString}</Text>
           <RenderHTML

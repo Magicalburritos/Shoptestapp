@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import {
   View,
   StyleSheet,
@@ -6,11 +6,10 @@ import {
   Text,
   Image,
   TouchableOpacity,
-  useWindowDimensions,
-} from "react-native";
-import { Searchbar } from "react-native-paper";
-import useSearch from "./hooks";
-import { decode } from "html-entities";
+} from 'react-native';
+import { Searchbar } from 'react-native-paper';
+import useSearch from './hooks';
+import { decode } from 'html-entities';
 
 const styles = StyleSheet.create({
   searchContainer: {
@@ -18,22 +17,22 @@ const styles = StyleSheet.create({
     padding: 4,
   },
   itemContainer: {
-    borderBottomColor: "black",
+    borderBottomColor: 'black',
     borderBottomWidth: 1,
-    backgroundColor: "#FFF",
+    backgroundColor: '#FFF',
     padding: 4,
   },
   titleText: {
     fontSize: 17,
   },
   priceText: {
-    color: "green",
+    color: 'green',
     fontSize: 15,
   },
 });
 
 export default function Search({ navigation }) {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
   const [SearchApi, results] = useSearch();
   const updateSearch = (term) => {
     setSearch(term);
@@ -59,19 +58,19 @@ export default function Search({ navigation }) {
 
     return (
       <TouchableOpacity
-        onPress={() => navigation.navigate("Products", { id: id })}
+        onPress={() => navigation.navigate('Products', { id: id })}
       >
         <View style={styles.itemContainer}>
           <Text style={styles.titleText}>
-            {decode(name, { level: "html5" })}
+            {decode(name, { level: 'html5' })}
           </Text>
           <Text style={styles.priceText}>{minPrice}</Text>
           <Image
             source={{ uri: sizes[0].url }}
-            style={{ height: 150, width: 150, alignSelf: "center" }}
+            style={{ height: 150, width: 150, alignSelf: 'center' }}
           />
           <Text style={{ fontSize: 14 }}>
-            {decode(shortDesc, { level: "html5" })}
+            {decode(shortDesc, { level: 'html5' })}
           </Text>
         </View>
       </TouchableOpacity>
